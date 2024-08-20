@@ -1,0 +1,242 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.txth {
+  color: white;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-container {
+  text-align: justify;
+}
+
+.text-container p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+  .image-container {
+    margin-bottom: 20px;
+  }
+  .text-container p {
+    margin-bottom: 15px;
+  }
+}
+.testimonios {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.testimonios__titulo {
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.testimonios__titulo::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #333;
+}
+
+.testimonios__contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.testimonio {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonio__texto {
+  font-style: italic;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.testimonio__imagen {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonio__nombre {
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 20px 0;
+  height: 3px;
+  color: white;
+  background-color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.img-fluid {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2;
+}
+
+.card {
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  color: #666;
+}
+
+.text-muted {
+  color: #525252 !important;
+}
+
+.flight-icon {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    width: 100%;
+  }
+}
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox input {
+  margin: 0;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+i {
+  margin-right: 10px;
+}
+
+a {
+  color: #a9a9a9;
+}
+
+.modal {
+  color: #000;
+}
+
+@media (max-width: 600px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
